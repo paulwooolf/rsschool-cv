@@ -10,42 +10,48 @@
 </head>
 <body>
 
-<h2>Paul Wolf</h2>
+<div class="info-board">
+    <div class="info-contacts">
+        <div class="avatar">
+            <img alt="avatar" src="avatar.png">
+        </div>
+        <h2>Paul Wolf</h2>
+        <div class="contacts">
+            <h4>Contacts</h4>
+            <p><strong>email:</strong> paulwooolf@gmail.com</p>
+            <p><strong>tel:</strong> +79859775955</p>
+        </div>
+    </div>
+    <div class="info-summary">
+        <h4>Summary</h4>
+        <p>I want to finish this course and get more experience</p>
 
-<img alt="avatar" src="avatar.png">
+        <h4>Skills</h4>
+        <ul>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Javascript</li>
+        </ul>
 
-<h4>Contacts</h4>
-<p><strong>email:</strong> paulwooolf@gmail.com</p>
-<p><strong>tel:</strong> +79859775955</p>
+        <h4>Code example</h4>
 
-<h4>Summary</h4>
-<p>I want to finish this course and get more experience</p>
+        <pre>
+            function recourse(n) {
+                if (n > 0) {
+                    console.log(n);
+                    recourse(n-1);
+                }
+            }
 
-<h4>Skills</h4>
-<ul>
-    <li>PHP</li>
-    <li>MySQL</li>
-    <li>Javascript</li>
-</ul>
+            recourse(15);
+        </pre>
 
-<h4>Code example</h4>
+        <h4>Experience</h4>
+        <span>Three years of work as a PHP programmer</span>
 
-<pre>
-function recourse(n) {
-if (n > 0) {
-console.log(n);
-recourse(n-1);
-}
-}
-
-recourse(15);
-</pre>
-
-<h4>Experience</h4>
-<span>Three years of work as a PHP programmer</span>
-
-<h4>English</h4>
-<p>Beginner</p>
-
+        <h4>English</h4>
+        <p>Beginner</p>
+    </div>
+</div>
 </body>
 </html>

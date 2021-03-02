@@ -1,3 +1,43 @@
+body {
+    background: #F4F4F4;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.info-board {
+    margin: 0 auto 10px;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px #3A3A3C;
+}
+
+h4 {
+    background: #3A3A3C;
+    padding: 5px;
+    color: #F4F4F4;
+}
+
+.info-contacts {
+    padding: 30px 3px 3px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #3A3A3C;
+    color: #F4F4F4;
+}
+
+.info-summary {
+    padding: 3px 3px 3px 5px;
+}
+
+.info-contacts, .info-summary {
+    flex: 1 1 250px;
+}
+
 img {
     max-width: 150px;
     max-height: 150px;
